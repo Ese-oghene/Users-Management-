@@ -6,12 +6,12 @@ dotenv.config();
 
 const transporter = nodemailer.createTransport({
   //host:'smtp.ethereal.email',
-    host: 'connecthub.com.ng',
+    host: '',
     port: 465,
     secure: true,
     auth: {
-      user: 'support@connecthub.com.ng',
-      pass: 'support1999#', 
+      user: '',
+      pass: '', 
       type: 'PLAIN',
     },
   });
